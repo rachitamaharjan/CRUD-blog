@@ -24,3 +24,7 @@ Route::resource('posts','postController');
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+//Route::get('product/create', 'products');
+
+Route::get('product/create','products@create' );
